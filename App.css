@@ -1,0 +1,169 @@
+body{
+  background-color: rgb(56, 54, 54);
+}
+.heading{
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bold;
+}
+form{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  width: 20rem;
+margin: auto;
+background-color: black;
+border-radius: 2rem;
+box-shadow: 10px 10px 18px rgb(89, 89, 89);
+}
+.LogoBox{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.logo{
+  margin: auto;
+  width: 4rem;
+  height: 4rem;
+}
+input[type="text"] {
+  width: 90%;
+  background-color: white;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid black;
+}
+input[type="number"] {
+  width: 90%;
+  background-color: white;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid black;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+select {
+  width: 90%;
+  height: 2rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(65, 26, 26);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  margin-left:1rem;
+  margin-right:1rem;
+}
+button{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.showItems{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 2rem;
+
+}
+.eachItems{
+border-radius: 2rem;
+width:15rem;
+background-color: bisque;
+color: brown;
+font-size: 1.rem;
+margin-top: 1rem;
+text-align: center;
+}
+.Action{
+  display: flex;
+  align-items: center;
+ justify-content: space-around;
+}
+
+.submit{
+  background-color: green;
+  height: 2rem;
+  width: 90%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.submit:hover{
+  background-color: aliceblue;
+  color: green;
+  cursor: pointer;
+}
+.save{
+  background-color: blue;
+  height: 2rem;
+  width: 90%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.save:hover{
+  background-color: aliceblue;
+  color: blue;
+  cursor: pointer;
+}
+.edit{
+  background-color: rgb(255, 0, 225);
+  height: 2rem;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.edit:hover{
+  background-color: aliceblue;
+  color: rgb(255, 0, 225);;
+  cursor: pointer;
+}
+.delete{
+  background-color: rgb(255, 0, 0);
+  height: 2rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.delete:hover{
+  background-color: aliceblue;
+  color: rgb(255, 0, 0);;
+  cursor: pointer;
+}
+.modal-box{
+  border: 2px solid white;
+}
+.offcanvas-body {
+  flex-grow: 1;
+  padding: 0 1rem;
+  overflow-y: auto;
+}
+.canvas-button{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50%;
+}
